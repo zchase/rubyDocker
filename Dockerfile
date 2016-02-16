@@ -2,7 +2,7 @@ FROM alpine:3.1
 
 # Update
 RUN apk upgrade --update
-RUN apk add ruby-rails4.2
+RUN apk add ruby
 
 # Bundle app source
 COPY . /src
